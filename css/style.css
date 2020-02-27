@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+body {
+  font-family: 'Simonetta',serif;
+}
+/* list of navigation css */
+.navbar {
+    background-color: #090979;
+    /* border-color: green; */
+    padding-bottom: 1.3rem;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover{
+  color:red;
+}
+i.fas.fa-user:hover{
+  color:red;
+}
+.dropdown-menu.show{
+  background-color:#090979;
+}
+.dropdown-toggle::after {
+  color:white;
+}
+li.nav-item.dropdown {
+  list-style: none;
+}
+i.fas.fa-user{
+  color:white;
+  font-size: 1.3rem;
+}
+
+.herotop{
+  padding-top:40px;
+}
+.homehero {
+  /* background-image: url(../img/hero33.jpg); */
+  background-color: #E4E5E6;
+  text-align: left;
+}
+.homehero2 {
+  background-image: url(../img/hero44.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height:80vh;
+  align-content: center;
+}
+
+.herotext{
+  padding:4em;
+  margin:20px;
+}
+
+.herotext > h1{
+  font-family: 'Roboto';
+  font-size: 2em;
+  font-weight: bold;
+  font-transform: capitalize;
+}
+
+
+
+
+/* cards start here */
